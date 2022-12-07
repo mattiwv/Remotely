@@ -23,7 +23,7 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl: 'https://remote.workventures.com.au'
+      serverUrl: https://remote.workventures.com.au
         description: 'Server URL'     
         required: true
       rid:
