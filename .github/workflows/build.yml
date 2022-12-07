@@ -23,7 +23,7 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl:
+      serverUrl: 'https://remote.workventures.com.au'
         description: 'Server URL'     
         required: true
       rid:
@@ -35,7 +35,7 @@ jobs:
 
   build-mac:
   
-    runs-on: macos-10.15
+    runs-on: macos-11
   
     steps:
       - name: Checkout
